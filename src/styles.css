@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;700&display=swap");
+
+.App {
+  font-family: "Noto Serif Khojki", cursive;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #d3e473e6;
+  --text-color: #0e17b7;
+}
+
+body h2 {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.buttonStyle {
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  border-color: brown;
+}
+
+input {
+  margin: auto;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.header {
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.heading2 {
+  color: var(--text-color);
+  font-size: 15px;
+}
+.heading {
+  color: var(--text-color);
+  margin: auto;
+  font-weight: bold;
+  padding: 1rem;
+}
+.answer {
+  color: var(--text-color);
+  margin: auto;
+  margin-top: "0.5rem";
+}
+
+.container {
+  padding: 1rem 1rem;
+}
+
+.container-center {
+  max-width: 80%;
+  color: var(---text-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(---text-color);
+  border-radius: 1.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
